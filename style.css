@@ -18,12 +18,21 @@
 body{
   color: white;
   font-size: x-large;
+  background-color: #afcaff;
+}
+
+#container{
+  margin: 4rem auto;
   background-color: #4d88ff;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #00091a;
 }
 
 #heading {
   /* font-size: 2rem; */
-  margin: 6rem auto 2rem auto;
+  text-align: center;
+  margin: 3.5rem auto 2rem auto;
 }
 
 
@@ -71,6 +80,7 @@ body{
 .footer{
   background-color: #4d88ff;
   position: relative;
+  border-radius: 10px;
   bottom: 0;
   margin: 3rem auto 0;
 }
